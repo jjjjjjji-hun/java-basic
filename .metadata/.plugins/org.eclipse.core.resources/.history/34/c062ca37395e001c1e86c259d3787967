@@ -1,0 +1,23 @@
+package interaction;
+
+public class Seller {
+	private int money;
+	private int mango;
+	
+	public Seller(int mango) {
+		this.money = 0;
+		this.mango = mango;
+	}
+
+	public void sellMango(int sMango) {
+		mango = mango - sMango;
+		if(mango <= 0) {
+			mango = 0;
+			System.out.println("망고가 모자랍니다");
+			return;
+		}
+		money = mango * 1000;
+		System.out.println("남은 망고 개수는 : " + mango);
+		System.out.println(money + "원을 받았습니다.");
+	}
+}

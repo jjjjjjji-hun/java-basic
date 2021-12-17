@@ -1,0 +1,20 @@
+package game.interaction;
+
+public class Thief {
+	private int hp;
+	private int mp;
+	private int atk;
+	private int def;
+	private int exp;
+
+	public Thief() {
+		this.hp = 15;
+		this.mp = 10;
+		this.atk = 3;
+		this.def = 1;
+		this.exp = 0;
+	}
+	public void huntOrc(Orc orc) {
+		orc.doBattle(this.atk);
+	}
+}

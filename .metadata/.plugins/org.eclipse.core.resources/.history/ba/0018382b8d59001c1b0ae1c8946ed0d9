@@ -1,0 +1,16 @@
+package constructor;
+
+public class Main03P204 {
+
+	public static void main(String[] args) {
+		Webtoon a = new Webtoon("외모지상주의", "박태준", 4.2);
+		a.getInfo();
+		a.uploadWebtoon();
+		a.uploadWebtoon();
+		a.completeWebtoon();
+		a.getInfo();
+		
+
+	}
+
+}

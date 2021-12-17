@@ -1,0 +1,21 @@
+
+public class Item {
+
+	public static void main(String[] args) {
+		// 6개 객체생성
+		Main02P204 i1 = new Main02P204(1);
+		Main02P204 i2 = new Main02P204(2);
+		i2 = null;
+		Main02P204 i3 = new Main02P204(3);
+		// 메모리 중간에 회수하도록 강제 명령
+		System.gc();
+		Main02P204 i4 = new Main02P204(4);
+		i4 = null;
+		Main02P204 i5 = new Main02P204(5);
+		i5 = null;
+		System.gc();
+		Main02P204 i6 = new Main02P204(6);
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package polymorphism;
+
+public class Student extends Person{
+
+	// 학생의 등급인 grade를 선언합니다.
+	private int grade;
+	
+	// super()를 이용해 Person(부모)생성자까지 커버하는 생성자를 만들어주세요.
+	// grade까지 입력을 받습니다.
+	public Student(int grade) {
+		super(grade);
+	}
+}

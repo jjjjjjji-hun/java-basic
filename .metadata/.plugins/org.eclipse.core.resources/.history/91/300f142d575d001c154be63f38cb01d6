@@ -1,0 +1,12 @@
+package game.inheritance;
+
+public class Main04 {
+
+	public static void main(String[] args) {
+		// Archer 생성을 하나 해주세요
+		Archer a1 = new Archer();
+		a1.getInfo();
+
+	}
+
+}

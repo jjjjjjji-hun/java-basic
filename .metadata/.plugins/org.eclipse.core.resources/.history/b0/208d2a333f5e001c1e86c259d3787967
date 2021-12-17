@@ -1,0 +1,15 @@
+package interaction;
+
+public class Buyer {
+	private int money;
+	private int mango;
+	
+	public Buyer() {
+		this.money = 10000;
+		this.mango = 0;
+	}
+	public void buyMango(Seller seller) {
+		seller.sellMango(this.mango);
+	}
+
+}

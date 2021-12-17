@@ -1,0 +1,17 @@
+package thiskeyword;
+
+public class Person {
+	// 사람의 정보를 여기 기입합니다.
+	private String name;
+	private int age;
+	private int money;
+	private String major;
+	
+	public Person(String n, int a, int money, String major) {
+		name = n;
+		age = a;
+		this.money = money;
+		this.major = major;
+	}
+
+}

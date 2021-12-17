@@ -1,0 +1,11 @@
+package overriding;
+
+public class Animal02 extends Animal{
+	
+	public boolean fly;
+	
+	public void getAnimal02Info() {
+		System.out.println("날개 : " + fly);
+	}
+
+}

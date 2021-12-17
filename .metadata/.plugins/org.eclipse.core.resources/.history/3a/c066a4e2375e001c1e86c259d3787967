@@ -1,0 +1,12 @@
+package interaction;
+
+public class Seller {
+	private int money;
+	private int mango;
+	
+	public Seller(int mango) {
+		this.money = 0;
+		this.mango = mango;
+	}
+
+}

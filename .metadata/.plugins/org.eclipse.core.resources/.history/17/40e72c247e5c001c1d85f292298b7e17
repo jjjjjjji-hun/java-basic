@@ -1,0 +1,14 @@
+package overriding;
+
+public class Antler extends Animal{
+
+	public int speed;
+	
+	public void howl() {
+		System.out.println("끄어엉ㄱ");
+	}
+	public void getInfo() {
+		System.out.println("이름 : " + name + ", 나이는 : " + age + 
+				           ", 뿔은 : " + horn + ", 스피드는 : " + speed); 
+	}
+}

@@ -1,0 +1,8 @@
+package game.inheritance;
+
+public class Warrior extends Commoner{
+	private int pDam;
+
+	public void getInfo();
+	
+}

@@ -1,0 +1,10 @@
+package overriding;
+
+public class Antler extends Animal{
+
+	public int speed;
+	
+	public void howl() {
+		System.out.println("끄어엉ㄱ");
+	}
+}
