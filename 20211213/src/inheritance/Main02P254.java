@@ -5,7 +5,7 @@ public class Main02P254 {
 	public static void main(String[] args) {
 		Student st1 = new Student();
 		st1.name = "김자바";
-		st1.age = 55;
+		st1.age = 25;
 		st1.stuNum = 1511012;
 		
 		st1.getInfo();

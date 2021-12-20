@@ -7,6 +7,7 @@ public class Mian {
 		Calculator a = new Calculator();
 		
 		// 2. plus(int, int)를 호출해주세요. 값은 임의로 넣어주세요.
+		a.plus(2);
 		a.plus(3, 5);
 		
 		// 3. plus(double)를 호출해주세요. 값은 임의로 넣어주세요.

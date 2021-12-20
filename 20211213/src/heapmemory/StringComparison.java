@@ -22,7 +22,7 @@ public class StringComparison {
 		System.out.println(str1 == new String("Hello"));
 		System.out.println(str1 == str2);
 		
-		// 문자열간 비교는 (주소말고 내용물간비교) .equals()로 진항합니다.
+		// 문자열간 비교는 (주소말고 내용물간비교) .equals()로 진행합니다.
 		System.out.println(str1.equals(new String("Hello")));
 	}
 

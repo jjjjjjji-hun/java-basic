@@ -3,7 +3,7 @@
     <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="structure.PersonClass"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="thiskeyword.Person"/>
     <fullyQualifiedTypeName name="org.jcp.xml.dsig.internal.dom.DOMCanonicalXMLC14NMethod"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>

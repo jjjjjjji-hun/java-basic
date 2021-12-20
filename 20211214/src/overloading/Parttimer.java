@@ -12,10 +12,10 @@ public class Parttimer {
 	public Parttimer(boolean a, int p, String s, String n) {
 		// p에 최저시급보다 적은 금액이 들어올 경우
 		// 최저시급으로 강제로 보정하는 로직을 추가해주세요.
-		afternoon = a;
-		if(p < 8720) {
+		if(p < 8720) { // 위의 조건을 먼저 검사해주기 위해 조건식 생성
 			p = 8720;
 		}//else {pay = p;} 도 가능
+		afternoon = a;
 		pay = p;
 		shopName = s;
 		name = n;

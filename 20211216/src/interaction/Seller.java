@@ -10,6 +10,7 @@ public class Seller {
 	}
 
 	public void sellMango(int mango) {
+		// 내가 파려는 망고 개수보다 사가려는 망고 개수가 많을때
 		if(this.mango < mango) {
 			System.out.println("망고가 모자랍니다. 현재 재고 : " + this.mango);
 			return;
@@ -25,7 +26,7 @@ public class Seller {
 		System.out.println("-------------------------");
 	}
 	public int getMango() {
-		return this.mango;
+		return mango;
 	}
 
 }

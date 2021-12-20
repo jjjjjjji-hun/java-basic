@@ -19,14 +19,14 @@ public class Monster {
 	// 0이 되면 교전이 불가능하다는 메세지를 남겨줍니다.
 	// 체력이 0보다 높은 경우에는 남은 체력을 마지막에 콘솔창에 띄워줍니다.
 	public void doBattle(int uAtk) {
-		this.hp = hp - uAtk;//uAtk는 사용자의 공격력, this.hp는 몬스터체력
-		if(hp <= 0) {
+		this.hp = this.hp - uAtk;//uAtk는 사용자의 공격력, this.hp는 몬스터체력
+		if(this.hp <= 0) {
 			System.out.println(this.name + "이/가 처치되었습니다.");
-			return;
+			return; // 조건식이 참이면 메서드를 빠져나옴.
 		}
-			System.out.println("몬스터가 공격받았습니다. 남은 체력 : " + hp);
+			System.out.println("몬스터가 공격받았습니다. 남은 체력 : " + this.hp);
 	}
-
+	// getter / setter 생성
 	public String getName() {
 		return name;
 	}
