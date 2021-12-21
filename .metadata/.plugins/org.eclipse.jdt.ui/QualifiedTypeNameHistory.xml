@@ -6,4 +6,5 @@
     <fullyQualifiedTypeName name="thiskeyword.Person"/>
     <fullyQualifiedTypeName name="org.jcp.xml.dsig.internal.dom.DOMCanonicalXMLC14NMethod"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="static1.StaticTest"/>
 </qualifiedTypeNameHistroy>
