@@ -1,6 +1,0 @@
-package overriding;
-
-public class Antler {
-
-	private int speed;
-}

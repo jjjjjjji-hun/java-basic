@@ -1,9 +1,0 @@
-package overriding;
-
-public class Seagull extends Animal{
-	
-	public boolean fly;
-	
-	}
-
-}

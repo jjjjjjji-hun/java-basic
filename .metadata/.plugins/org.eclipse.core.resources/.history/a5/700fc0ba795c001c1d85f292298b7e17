@@ -1,6 +1,0 @@
-package overriding;
-
-public class Antler extends Animal{
-
-	private int speed;
-}
