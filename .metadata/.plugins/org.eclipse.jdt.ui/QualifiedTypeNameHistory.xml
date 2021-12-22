@@ -1,18 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
-<<<<<<< HEAD
-=======
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
->>>>>>> 412acf1326f7f86efe5b0745304b84b9effcbb14
-    <fullyQualifiedTypeName name="structure.PersonClass"/>
-    <fullyQualifiedTypeName name="thiskeyword.Person"/>
-    <fullyQualifiedTypeName name="org.jcp.xml.dsig.internal.dom.DOMCanonicalXMLC14NMethod"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="static1.StaticTest"/>
-<<<<<<< HEAD
-    <fullyQualifiedTypeName name="exception.Exception01P348"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-=======
->>>>>>> 412acf1326f7f86efe5b0745304b84b9effcbb14
-</qualifiedTypeNameHistroy>
+<qualifiedTypeNameHistroy/>
