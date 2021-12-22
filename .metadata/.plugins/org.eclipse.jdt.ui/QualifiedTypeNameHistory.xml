@@ -7,4 +7,5 @@
     <fullyQualifiedTypeName name="org.jcp.xml.dsig.internal.dom.DOMCanonicalXMLC14NMethod"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="static1.StaticTest"/>
+    <fullyQualifiedTypeName name="exception.Exception01P348"/>
 </qualifiedTypeNameHistroy>
