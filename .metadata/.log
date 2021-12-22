@@ -11713,3 +11713,9 @@ org.xml.sax.SAXParseException; lineNumber: 5; columnNumber: 2; The content of el
 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2021-12-22 15:46:59.949
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2021-12-22 15:46:59.950
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
