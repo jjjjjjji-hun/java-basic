@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="structure.PersonClass"/>
     <fullyQualifiedTypeName name="thiskeyword.Person"/>
     <fullyQualifiedTypeName name="org.jcp.xml.dsig.internal.dom.DOMCanonicalXMLC14NMethod"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="static1.StaticTest"/>
     <fullyQualifiedTypeName name="exception.Exception01P348"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
