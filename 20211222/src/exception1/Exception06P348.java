@@ -11,7 +11,7 @@ public class Exception06P348 {
 		// Object자료형은 자바 모든 클래스의 부모 클래스이다.
 		String str = "3";
 		Object obj = str;
-		Integer integer = (Integer)obj;
+		Integer integer = (Integer)obj; //int나double은 스택에 저장, Integer는 힙에 저장
 
 	}
 
