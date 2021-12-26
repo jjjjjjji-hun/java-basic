@@ -11,7 +11,7 @@ public class Datainteger36P {
 
 		// 우리가 그냥 숫자를 적으면 int로 간주됩니다.
 		// 그래서 int 범위를 벗어난 값은 long형에는 대입이 안 됩니다.
-		// int 범위를 벗어난 숫자를 대입할떄는 숫자 뒤에 L을 추가로 붙입니다.
+		// int 범위를 벗어난 숫자를 대입할때는 숫자 뒤에 L을 추가로 붙입니다.
 		long b = 2500000000L; // int -21억 ~ +21억
 		System.out.println(b);
 	}

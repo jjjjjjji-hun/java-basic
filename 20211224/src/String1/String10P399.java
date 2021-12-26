@@ -33,8 +33,8 @@ public class String10P399 {
 			System.out.println("그런 아이디는 없습니다.");
 		}
 		scan.close();
-		/*
-		 * Scanner scan = new Scanner(System.in);
+		
+		/*Scanner scan = new Scanner(System.in);
 		System.out.println("아이디를 입력해주세요");
 		String uId = scan.nextLine();
 		System.out.println("비밀번호를 입력해주세요.");

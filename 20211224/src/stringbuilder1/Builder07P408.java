@@ -20,8 +20,6 @@ public class Builder07P408 {
 		StringBuilder str2 = new StringBuilder(hangul);
 		System.out.println(str2);
 		
-		StringBuilder str3 = (StringBuilder)str;
-		System.out.println(str3);
 
 	}
 

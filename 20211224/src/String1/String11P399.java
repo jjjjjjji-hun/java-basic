@@ -8,6 +8,10 @@ public class String11P399 {
 		// int a = 1000;
 		System.out.println(a);
 		System.out.println(a+1);
+		// 단점 : String 객체는 처음 초기화된 데이터에 변화가 생기면 
+		// 기존 객체를 재활용하지 않고 새로운 객체를 생성합니다.
+		a += "asd"; 
+		System.out.println(a);
 		
 		// 실수 하나를 임의로 문자열로 바꿔서 저장해보세요
 		String b = String.valueOf(3.5);

@@ -10,9 +10,8 @@ public class String08P399 {
 		System.out.println(str);
 		
 		// replace()를 이용해서 공백 전체를 없애보세요.
-		// str = str.replace(" ", "");
-		// System.out.println(str);
 		System.out.println(str.replace(" ", ""));
+		System.out.println(str);
 		
 		// trim()과 replace()를 이용해 Hello Java사이의 공백을
 		// 한 칸 만 남겨보세요.

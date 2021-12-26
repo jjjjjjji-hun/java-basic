@@ -14,13 +14,13 @@ public class Exception07P355 {
 				System.out.println(number[i]);
 			}
 			System.out.println("0으로 나누기 시도해보겠습니다.");
-			System.out.println(number[4] / number[5]); // ArithmeticcException
-		}catch(ArrayIndexOutOfBoundsException a) {
-			System.out.println("범위를 벗어난 인덱스 번호를 입력했습니다.");
-		}catch(ArithmeticException a) {
+			System.out.println(number[4] / number[5]); // ArithmeticException
+			
+		}catch(ArithmeticException | NumberFormatException a) { // 멀티 catch 자바 7부터 가능
 			System.out.println("0으로 나눌 수 없습니다.");
-		}
-		catch(Exception e) {
+		}catch(ArrayIndexOutOfBoundsException ae) {
+			System.out.println("범위를 벗어난 인덱스 번호를 입력했습니다.");
+		}catch(Exception e) {
 		// Exception e 는 만능처리구문으로 어떤 예외도 다 일괄적으로 처리해줍니다.
 		System.out.println("예외가 발생했습니다.");
 		}
