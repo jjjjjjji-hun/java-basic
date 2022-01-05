@@ -12,5 +12,4 @@ public class Binary04P77 {
 		System.out.println(a);
 		// 이동 결과가 a에 저장되지는 않으므로 a는 줄곧 80
 	}
-
 }

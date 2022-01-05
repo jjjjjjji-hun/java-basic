@@ -11,9 +11,7 @@ public class Binary02P67 {
 		System.out.println(12 <= 12); // 12가 12보다 작서나 같은가? : true로 반환
 		
 		System.out.println("a" != "b" ); // "a"와 "b"가 다른가? : true로 반환
-		System.out.println("a" == "a");  // "a"와 "a"가 같은가? : true로 반환
-		System.out.println(5 == 5.0); // 5.0과 5.0이 같은가? : true로 반환
-		
+		System.out.println("a" == "b");  // "a"와 "b"가 같은가? : false로 반환
+		System.out.println(5 == 5.0); // 5.0과 5.0이 같은가? : true로 반환	
 	}
-
 }

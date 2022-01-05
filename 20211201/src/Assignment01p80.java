@@ -1,5 +1,5 @@
 
-public class AASSIGNMENT01p80 {
+public class Assignment01p80 {
 
 	public static void main(String[] args) {
 		// 대입 연산자란 특정 변수 값을 연산자 우측에 해당하는 값을 이용해
@@ -19,7 +19,5 @@ public class AASSIGNMENT01p80 {
 		System.out.println(a); // 11로 감소
 		a %= 12; // a = a / 12 // 12나눈 후 나머지 구하는 코드
 		System.out.println(a); // 11이 나오는 것 확인
-
 	}
-
 }

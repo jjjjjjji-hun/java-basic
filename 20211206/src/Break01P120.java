@@ -16,7 +16,5 @@ public class Break01P120 {
 		    }
 			System.out.println("이번 숫자는 " + num + "입니다.");
 		}
-
 	}
-
 }

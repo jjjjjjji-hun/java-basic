@@ -11,12 +11,13 @@ public class Scanner02P93 {
 		String name = scan.nextLine();
 		
 		System.out.println("키를 입력해주세요 : ");
-		double hieght = scan.nextDouble();
+		double height = scan.nextDouble();
 		
 		System.out.println("이름 : " + name);
-		System.out.println("키 : " + hieght);
+		System.out.println("키 : " + height);
 		scan.close();
-		
+	}
+}	
 		// 문자열을 입력받는 경우
 		// String name = scan.nextLine();
 		
@@ -24,8 +25,6 @@ public class Scanner02P93 {
 		// double height = scan.nextDouble();
 		
 		// System.out.println(name);
-		// System.out.println(hieght);
+		// System.out.println(height);
 
-	}
 
-}

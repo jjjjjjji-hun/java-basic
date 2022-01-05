@@ -1,10 +1,10 @@
 
 public class Method02P204 {
 
-	        // 리턴구문에 int 자료를 입력해야 에러가 나지 않음.
-			public static int add2(int a) {
-				return a +1;
-			}	
+	// 리턴구문에 int 자료를 입력해야 에러가 나지 않음.
+	public static int add2(int a) {
+		return a +1;
+	}	
 	public static void main(String[] args) {
 		// 반환자료가 void가 아닌 경우는 호출 위치에
 		// return문 오른쪽 자료를 그대로 갖다 놓습니다.
@@ -13,7 +13,5 @@ public class Method02P204 {
 		//  int b = 11;
 		
 		System.out.println(b);
-
 	}
-
 }

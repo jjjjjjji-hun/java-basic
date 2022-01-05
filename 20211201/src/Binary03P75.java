@@ -11,7 +11,5 @@ public class Binary03P75 {
 		System.out.println(5 & 3);// 1
 		System.out.println(5 | 3);// 7
 		System.out.println(5 ^ 3);// 6
-
 	}
-
 }

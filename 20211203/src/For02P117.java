@@ -17,6 +17,6 @@ public class For02P117 {
 			for (int a = 1; a <= 4; a++) {
 				System.out.println("안녕하세요.");
 			}
-	}
+		}
 	}
 }

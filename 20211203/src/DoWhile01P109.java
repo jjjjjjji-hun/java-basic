@@ -11,7 +11,5 @@ public class DoWhile01P109 {
 			a += 2;
 			System.out.println("a는 5보다 작나요?");
 		}while(a < 5); // 일반 while문과 달리 마지막에 ;을 붙입니다.
-
 	}
-
 }

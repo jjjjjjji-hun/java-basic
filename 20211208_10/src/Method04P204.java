@@ -9,6 +9,9 @@ public class Method04P204 {
 		System.out.println(124);
 		System.out.println(784);
 	}	
+	public static int get() {
+		return 15;
+	}
 	public static void main(String[] args) {
 		info();
 		System.out.println("=======");
@@ -18,7 +21,6 @@ public class Method04P204 {
 		System.out.println("=======");
 		info();
 		System.out.println("=======");
-
+		get();
 	}
-
 }

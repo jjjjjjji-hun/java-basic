@@ -10,7 +10,5 @@ public class While02P106 {
 			count += 1;
 			System.out.println("반복문 실행중입니다." + count);
 		}
-
 	}
-
 }

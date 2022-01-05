@@ -19,7 +19,5 @@ public class Break03P122 {
 			}
 			System.out.println("-------------------");
 		}
-
 	}
-
 }

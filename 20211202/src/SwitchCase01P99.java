@@ -33,7 +33,5 @@ public class SwitchCase01P99 {
 			System.out.println("1~5가 아니네요.");
 			break; // 가독성을 위해 필요없지만 default에도 break를 작성하기도 함.
 		}
-
 	}
-
 }

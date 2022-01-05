@@ -8,7 +8,6 @@ public class Elseif01P97 {
 		// else if는 else와 달리 조건식을 기입해야 됩니다.
 		// else if 문은 몇 개라도 작성할 수 있습니다.
 		Scanner scan = new Scanner(System.in);
-		
 		System.out.println("정수를 입력해주세요.");
 		int num = scan.nextInt();
 		
@@ -21,5 +20,4 @@ public class Elseif01P97 {
 		}
 scan.close();
 	}
-
 }

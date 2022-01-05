@@ -14,7 +14,5 @@ public class Parseint01 {
 		System.out.println(year + 1);
 		// 문자 2021 + 정수 1 == 20211로 출력
 		System.out.println(str + 1);
-
 	}
-
 }

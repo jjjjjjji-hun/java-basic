@@ -11,7 +11,5 @@ public class Unary02 {
 		System.out.println(!true);
 		// 자료형을 바꿔주는 cast연산자 ((자료형)자료)
 		System.out.println((double)21);
-
 	}
-
 }

@@ -24,7 +24,5 @@ public class Continue02P123_1 {
 			System.out.println("현재 1부터 " + count + "까지 더했습니다.");
 		    System.out.println("총합은 " + total + "입니다.");
 		}
-
 	}
-
 }

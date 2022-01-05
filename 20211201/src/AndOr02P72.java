@@ -8,7 +8,5 @@ public class AndOr02P72 {
 		// 에러가 발생하는 오른쪽 연산(0으로 나누기)을 생략하는지 테스트
 		System.out.println((1 + 3 > 4) && (0 < 3/0));
 		System.out.println((5 > 4) || (0 < 2/0));
-
 	}
-
 }

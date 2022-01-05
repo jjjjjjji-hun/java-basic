@@ -7,7 +7,6 @@ public class Method01P204 {
 		// int a 자료를 호출시에 제공해야 내부 문장을 실행할 수 있음
 		System.out.println(a+1);
 	}
-
 	public static void main(String[] args) {
 		// method는 자주 사용할 코드를 특정한 이름으로 붙여둔 것 입니다.
 		// method 내부에는 불완전한 코드가 들어올 수 있습니다.
@@ -17,7 +16,5 @@ public class Method01P204 {
 		// 호출 위치로 보내줍니다.
 		// method는 main 외부에 작성합니다
 		add(500);
-
 	}
-
 }

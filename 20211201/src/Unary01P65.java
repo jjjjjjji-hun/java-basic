@@ -10,14 +10,12 @@ public class Unary01P65 {
 		int a = 1;
 	    System.out.println(++a); // 전위 수식, 실행 전에 먼저 a값 1증가
 	    // 1. a값을 먼저 1 증가시킴 : a = a(1)+1
-	    // 2. 증가된 a값을 콘솔에 찍음 : sysout(a(2))
+	    // 2. 증가된 a값을 콘솔에 찍음 : System.out.println(a(2))
 	    System.out.println(a); // a값은 1 증가(2)한재로 유지됨.
 	    
 	    System.out.println(a++); // 후위수식, a출력(2)후 1증가
-	    // 1. a값을 콘솔에 찍음 : sysout(a(2))
+	    // 1. a값을 콘솔에 찍음 : System.out.println(a(2))
 	    // 2. a값을 1 증가 시킴 : a = a(2)+1 = a(3)
 	    System.out.println(a); // a값은 1증가한채(3)로 유지됨
-
 	}
-
 }

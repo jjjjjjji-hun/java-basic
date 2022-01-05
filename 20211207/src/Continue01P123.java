@@ -13,7 +13,5 @@ public class Continue01P123 {
 			}
 			System.out.println("이번 숫자는 " + i + "입니다.");
 		}
-
 	}
-
 }
