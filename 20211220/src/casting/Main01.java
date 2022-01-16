@@ -24,5 +24,4 @@ public class Main01 {
 		// Animal까지만 영향을 미칠지 dog까지 영향을 미칠지에 대해 차이점이있음.
 		dog.bark();
 	}
-
 }

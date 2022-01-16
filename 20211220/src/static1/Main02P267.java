@@ -9,5 +9,4 @@ public class Main02P267 {
 		// static 메서드도 설정 가능하며 나머지 사항은 변수와 같습니다.
 		StaticTest.check();
 	}
-
 }

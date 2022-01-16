@@ -2,8 +2,7 @@ package accessmodifier;
 
 public class Warrior {// 정의부, 실제 실행은 Main에서 할 예정임.
 	// hp, mp, lv, atk, def, exp, name;
-	// 선언
-	// 변수값은 현실에서도 특정한 물체나 사람의 상태가 휙휙 바뀌지 않으므로
+	// 선언 변수값은 현실에서도 특정한 물체나 사람의 상태가 휙휙 바뀌지 않으므로
 	// 외부에서 값을 함부로 고칠 수 없도록 private으로 처리합니다.
 	private String name;
 	private int hp;
@@ -30,7 +29,6 @@ public class Warrior {// 정의부, 실제 실행은 Main에서 할 예정임.
 				           ", 방어력 : " + def + ", 경험치 : " + exp);
 	}
 
-	
 	// hunt 메서드를 만들어보겠습니다.
 	// 이 메서드는 실행시 사냥을 하는데 체력이 2깎이고 경험치가 10 올라갑니다.
 	// 사냥 결과 체력이 X이 되었고, 누적 경험치는 Y입니다. 라고 출력합니다.

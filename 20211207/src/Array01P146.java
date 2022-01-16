@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Arry01P146 {
+public class Array01P146 {
 
 	public static void main(String[] args) {
 		// 배열은 일반 변수와 달리 하나의 변수명에 여러 값을
@@ -26,7 +26,5 @@ public class Arry01P146 {
 		System.out.println(a.length);
 		System.out.println(b.length);
 		System.out.println(c.length);
-
 	}
-
 }

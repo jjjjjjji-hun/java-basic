@@ -20,9 +20,7 @@ public class ClassMain01P196 {
 		b.uNum = 16;
 		b.hieght = 164;
 		// 만든 사람 두명의 정보를 콘솔에 찍어보세요.
-		a.getInFo();
-		b.getInFo();
-
+		a.getInfo();
+		b.getInfo();
 	}
-
 }

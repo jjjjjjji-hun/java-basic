@@ -12,7 +12,7 @@ public class Structure01P190 {
 		Person p1 = new Person();
 		// p1 내부에 정의한 변수를
 		// p1.변수명 = 대입할 값; 형태로 저장합니다.
-		p1.name = "김지훈";
+		p1.name = "김자바";
 		System.out.println(p1.name);
 		p1.age = 26;
 		System.out.println(p1.age);
@@ -23,7 +23,7 @@ public class Structure01P190 {
 		
 		// 또 다른 사람을 하나 만들어봅니다.
 		Person p2 = new Person();
-		p2.name = "김쥐희";
+		p2.name = "김스프링";
 		System.out.println(p2.name);
 		p2.age = 22;
 		System.out.println(p2.age);
@@ -32,5 +32,4 @@ public class Structure01P190 {
 		p2.uNum = 3333;
 		System.out.println(p2.uNum);
 	}
-
 }

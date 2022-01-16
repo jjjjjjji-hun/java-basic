@@ -12,5 +12,4 @@ public class Car {
 		System.out.println("모델명 : " + model + ", 가격 : " + price);
 		System.out.println("========================");
 	}
-
 }

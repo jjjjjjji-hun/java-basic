@@ -13,7 +13,7 @@ public class Webtoon {
 		painter = p;
 		complete = false;
 		points = po;
-	   }
+	}
 		    public void getInfo() {
 			    System.out.println("웹툰제목 : " + name + ", 회차 : " + series + 
 			    		           ", 작가 : " + painter + 
@@ -22,9 +22,8 @@ public class Webtoon {
 			}
 			public void uploadWebtoon() {
 				series += 1;
-		}
+		    }
 			public void completeWebtoon() {
 				complete = true;
 			}
-
 }

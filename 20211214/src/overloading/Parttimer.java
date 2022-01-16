@@ -25,8 +25,6 @@ public class Parttimer {
 		System.out.println("가게명 : " + shopName);
 		System.out.println("알바생 명 : " + name);
 	}
-	
-	
 	// 오버로딩은 이름은 같은데 파라미터값의 종류나 개수가 다르면 중복 작성을 허용합니다.
 	// afternoon, shopName, name만 입력받는 생성자를 하나 더 중복작성
 	// pay는 최저시급
@@ -41,6 +39,4 @@ public class Parttimer {
 		System.out.println("가게명 : " + shopName);
 		System.out.println("알바생 명 : " + name);
 	}
-	
-
 }

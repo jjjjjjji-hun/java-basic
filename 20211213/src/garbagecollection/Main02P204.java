@@ -16,7 +16,5 @@ public class Main02P204 {
 		i1 = null;
 		System.gc();
 		Item i6 = new Item(6);
-
 	}
-
 }

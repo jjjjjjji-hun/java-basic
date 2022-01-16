@@ -18,7 +18,5 @@ public class Main01 {
 		m1.getInfo();
 		m1.heal();
 		m1.getInfo();
-
 	}
-
 }

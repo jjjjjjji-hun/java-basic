@@ -7,7 +7,5 @@ public class Main02 {
 		SuperSonicAirplane s1 = new SuperSonicAirplane(300);
 		s1.fly();
 		s1.fly();
-
 	}
-
 }

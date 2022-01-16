@@ -13,10 +13,9 @@ public class Person {
 		this.money = money;
 		this.major = major;
 	}
-
 	// 이름, 나이, 소지금액, 전공을 콘솔에 찍어주는 getInfo()를 작성해주세요
 	public void getInfo() {
-		System.out.println("이름 : " + name + ", 나이 : " + age + 
-				           ", 소지금액 : " + money + ", 전공 : " + major);
+		System.out.println("이름 : " + this.name + ", 나이 : " + this.age + 
+				           ", 소지금액 : " + this.money + ", 전공 : " + this.major);
 	}
 }

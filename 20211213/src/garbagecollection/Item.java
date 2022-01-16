@@ -15,5 +15,4 @@ public class Item {
 	protected void finalize() {
 		System.out.println(num + "객체 삭제.");
 	}
-
 }

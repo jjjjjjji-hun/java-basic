@@ -17,5 +17,4 @@ public class Mian {
 		// 이 메서드는 System.out.println("문자열은 연산 대상이 아닙니다.); 라고 출력해주세요.
 		a.plus("ad");
 	}
-
 }

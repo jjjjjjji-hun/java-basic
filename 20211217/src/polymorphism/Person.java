@@ -13,28 +13,23 @@ public class Person {
 		this.name = name;
 		this.age = age;
 	}
-	
-	// Person 클래스의 전체 데이터를 콘솔에 찍어주는 showPeson()
+	// Person 클래스의 전체 데이터를 콘솔에 찍어주는 showPerson()
 	// Person 타입으로 호출했을때 유일하게 호출 가능한 메서드
 	// 이 메서드를 자식쪽에 오버라이딩 하면 부모타입으로도
 	// 자식쪽 showPerson()을 호출할 수 있습니다.
 	public void showPerson() {
 		System.out.println("이름 : " + this.name + ", 나이 : " + this.age);
 	}
-
 	// setter/ getter를 생성해주세요
 	public String getName() {
 		return name;
 	}
-
 	public void setName(String name) {
 		this.name = name;
 	}
-
 	public int getAge() {
 		return age;
 	}
-
 	public void setAge(int age) {
 		this.age = age;
 	}	

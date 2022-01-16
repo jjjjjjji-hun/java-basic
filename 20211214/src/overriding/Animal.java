@@ -12,4 +12,3 @@ public class Animal {
 		System.out.println("이름 : " + name + ", 나이는 : " + age + ", 뿔은 : " + horn);
 	}
 }
-

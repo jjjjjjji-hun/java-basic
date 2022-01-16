@@ -6,8 +6,6 @@ public class Main01P276 {
 		// 정적 초기화자   System.out.println(StaticTest.num2);
 		StaticTest s1 = new StaticTest();
 		StaticTest s2 = new StaticTest();
-		StaticTest s3 = new StaticTest();
-		
+		StaticTest s3 = new StaticTest();	
 	}
-
 }

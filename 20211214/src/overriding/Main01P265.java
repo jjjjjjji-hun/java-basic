@@ -19,5 +19,4 @@ public class Main01P265 {
 		a1.speed = 50;
 		a1.getInfo();
 	}
-
 }

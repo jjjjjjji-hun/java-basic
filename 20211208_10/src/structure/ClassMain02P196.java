@@ -15,7 +15,5 @@ public class ClassMain02P196 {
 		
 		a.getInfo();
 		b.getInfo();
-
 	}
-
 }

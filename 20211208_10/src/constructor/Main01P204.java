@@ -7,12 +7,12 @@ public class Main01P204 {
 		// 연료량은 100
 		// 속도는 0
 		// 주인은 본인이름으로 만들어주세요.
-		Car a = new Car(100, 0, "김지훈");
+		Car a = new Car(100, 0, "김자바");
 		/* 생성자로 gas, speed, owner를 처리
 		Car a = new Car(); 
 		a.gas = 100;
 		a.speed = 0;
-		a.owner = "김지훈";*/
+		a.owner = "김자바";*/
 
 		// 차를 뽑자마자 먼저 상태 확인
 		a.getInfo();
@@ -30,5 +30,4 @@ public class Main01P204 {
 	    // 상태 다시 확인
 	    a.getInfo();
 	}
-
 }

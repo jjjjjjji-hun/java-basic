@@ -9,9 +9,8 @@ public class Student extends Person{
 	// 공통속성(이름, 나이)이 아닌 학생만의 개별적 특성 정의
 	public int stuNum;
 	
-	// getInfo()는 자동으로 작성됩니다.
+	// 부모쪽 getInfo()는 자동으로 작성됩니다.
 	public void getStudentInfo() {
 		System.out.println("이름은 : " + name + ", 나이는 : " + age + ", 학번은 : " + stuNum);
 	}
-
 }

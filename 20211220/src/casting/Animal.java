@@ -12,5 +12,4 @@ public class Animal {
 	public void sit() {
 		System.out.println("앉습니다.");
 	}
-
 }

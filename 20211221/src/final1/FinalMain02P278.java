@@ -19,14 +19,13 @@ public class FinalMain02P278 {
 		
 		System.out.println(WORRIOR_HP);
 		System.out.println(MONSTER_EXP);
-		// 상수를 굳이 쓰는 2번째 이유는 값을 일괄적으로 바꾸기 편하기 때문입니다.
+		// 상수를 굳이 쓰는 2번째 이유는 아래와 같이 바꾸려는 값이 많을 때
+		// 값을 일괄적으로 바꾸기 편하기 때문입니다.
 		System.out.println(WORRIOR_HP);
 		System.out.println(MONSTER_EXP);
 		System.out.println(WORRIOR_HP);
 		System.out.println(MONSTER_EXP);
 		System.out.println(WORRIOR_HP);
 		System.out.println(MONSTER_EXP);
-
 	}
-
 }

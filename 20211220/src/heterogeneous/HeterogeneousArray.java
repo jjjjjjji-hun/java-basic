@@ -20,7 +20,5 @@ public class HeterogeneousArray {
 		for(Object value : oArr) {
 			System.out.print("," + value);
 		}
-
 	}
-
 }

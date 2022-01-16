@@ -14,7 +14,5 @@ public class Main01P276 {
 		
 		// Math(수학)
 		System.out.println(Math.PI);
-
 	}
-
 }

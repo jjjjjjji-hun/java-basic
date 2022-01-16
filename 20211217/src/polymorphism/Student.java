@@ -16,7 +16,6 @@ public class Student extends Person{
 		super(name, age);
 		this.grade = grade;
 	}
-	
 	// 상속받은 showPerson을 활용한 메서드 작성
 	public void showPerson() {
 		// 부모쪽 메서드 호출

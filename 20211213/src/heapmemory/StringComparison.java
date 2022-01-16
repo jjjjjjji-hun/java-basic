@@ -15,7 +15,6 @@ public class StringComparison {
 		// 문자열은 일부분만 변경이 불가능함.
 		// str1[0] = "Q";
 
-		
 		// str1 == str2 와 같이 비교하는것은 문자열 비교가 아니고
 		// 주소 비교입니다.
 		System.out.println(new String("Hello"));
@@ -25,5 +24,4 @@ public class StringComparison {
 		// 문자열간 비교는 (주소말고 내용물간비교) .equals()로 진행합니다.
 		System.out.println(str1.equals(new String("Hello")));
 	}
-
 }

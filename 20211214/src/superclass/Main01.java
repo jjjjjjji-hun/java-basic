@@ -19,7 +19,5 @@ public class Main01 {
 		a1.breakSpeed();
 		a1.breakSpeed();
 		a1.breakSpeed();
-
 	}
-
 }

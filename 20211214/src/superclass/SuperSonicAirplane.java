@@ -13,7 +13,6 @@ public class SuperSonicAirplane extends Airplane{
 		// 부모 생성자가 무조건 1순위로 호출되어야 합니다.
 		super(velocity);
 	}
-	
 	// 초음속 비행은 속도가 900이상, 1300 이하인 경우 호출됩니다.
 	// 현재 SuperSonicAirplane 내부이기 때문에
 	// public void fly() 작성시, 오버라이딩이 일어나게 되는데
@@ -31,5 +30,4 @@ public class SuperSonicAirplane extends Airplane{
 		System.out.println("초음속 비행중입니다 : " + velocity + "km/h");
 		}
 	}
-
 }

@@ -17,8 +17,5 @@ public class Main03P204 {
 		b.uploadWebtoon();
 		b.completeWebtoon();
 		b.getInfo();
-		
-
 	}
-
 }

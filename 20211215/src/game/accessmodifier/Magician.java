@@ -26,7 +26,6 @@ public class Magician extends Commoner{
 		setMp(getMp()-3);
 		setExp(getExp()+20);
 	}
-	
 	public void heal() {
 		System.out.println("마법사가 힐을 사용했습니다.");
 		setMp(getMp()-2);
@@ -34,14 +33,12 @@ public class Magician extends Commoner{
 	}
 		// heal 메서드를 생성해주세요.
 		// 마나가 2줄고, 체력이 10 회복됩니다.
-
 	public void getInfo() {
 		// 심지어 private요소는 수정이아닌 조회도 불가능합니다.
 		System.out.println("현재 체력 : " + getHp());
 		System.out.println("현재 마나 : " + getMp());
 		System.out.println("현재 레벨 : " + getLv());
 		System.out.println("현재 경험치 : " + getExp());
-		System.out.println("현재 유저명 : " + getName());
-		
+		System.out.println("현재 유저명 : " + getName());	
 	}
 }
