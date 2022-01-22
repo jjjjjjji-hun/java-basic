@@ -9,7 +9,7 @@ public class Main01P320 {
 		// 기본적으로 부모쪽에서 정의한 내용을 실행하는데 제약이 없습니다.
 		
 		// 다형성 원리는 기본적으로 알고있는대로 적용됩니다.
-		Vehicle c1 = new Car("김지훈");
+		Vehicle c1 = new Car("김자바");
 		c1.accel();
 		c1.accel();
 		c1.showStatus();
@@ -17,7 +17,5 @@ public class Main01P320 {
 		c1.showStatus();
 		c1.reFuel();
 		c1.showStatus();
-
 	}
-
 }

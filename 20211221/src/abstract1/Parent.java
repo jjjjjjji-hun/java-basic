@@ -10,7 +10,7 @@ public abstract class Parent {
 		this.age = 40;
 	}
 	
-	// 추상 메서드, 아래와 같이 실행문 없이 선언부만 작성한다
+	// 추상 메서드, 아래와 같이 실행문 없이 선언부만 작성합니다.
 	// 실행문이 없어서 자식이 상속받았을때 오버라이딩이 강요됩니다.
 	public abstract void getAge();
 	
@@ -19,5 +19,4 @@ public abstract class Parent {
 	public void getInfo() {
 		System.out.println("일반 메서드입니다.");
 	}
-
 }

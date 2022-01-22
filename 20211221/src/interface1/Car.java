@@ -1,7 +1,6 @@
 package interface1;
 
-// interface구현 (상속이 아님!)하기 위해서는
-// extends 대신에 implements를 사용합니다.
+// interface구현 (상속이 아님!)하기 위해서는 extends 대신에 implements를 사용합니다.
 // 인터페이스 내부의 추상메서드는 무조건 전부 구현해야 합니다.
 public class Car implements Vehicle{
 	// 자동차라면 가져야 하는 변수 설정
@@ -19,8 +18,7 @@ public class Car implements Vehicle{
 	@Override
 	public void accel() {
 		// 한 번 가속시 속도가 10씩 늘어나도록 해 주세요.
-		// 연료는 한 번 가속에 1씩 소비합니다.
-		// 단 속도는 200을 초과할 수 없습니다.
+		// 연료는 한 번 가속에 1씩 소비합니다. 단, 속도는 200을 초과할 수 없습니다.
 		if(this.speed + CAR_INCREASE_SPD > CAR_MAX_SPD) {
 			this.speed = CAR_MAX_SPD;
 		}else {
