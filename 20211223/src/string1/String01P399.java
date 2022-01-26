@@ -9,5 +9,5 @@ public class String01P399 {
 		System.out.println(get);
 		// 자바는 문자열 인덱싱을 허용하지 않습니다.
 		// System.out.println(greeting[6]); 에러
-}
+	}
 }

@@ -10,7 +10,5 @@ public class Builder03P408 {
 		System.out.println(a);
 		a.delete(3, 10);
 		System.out.println(a);
-
 	}
-
 }

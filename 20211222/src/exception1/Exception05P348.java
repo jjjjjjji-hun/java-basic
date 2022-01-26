@@ -8,7 +8,5 @@ public class Exception05P348 {
 		String a = "123ㅂㅈㄷ";
 		int result = Integer.parseInt(a);
 		System.out.println(result);
-
 	}
-
 }

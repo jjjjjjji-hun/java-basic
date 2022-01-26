@@ -14,8 +14,10 @@ public class Exception07P355 {
 				System.out.println(number[i]);
 			}
 			System.out.println("0으로 나누기 시도해보겠습니다.");
-			System.out.println(number[4] / number[5]); // ArithmeticException
+			System.out.println(number[4] / number[6]); // ArithmeticException
 			
+			// ArithmeticException도 특별 처리를 해 주세요.
+			// 0으로 나눌 수 없습니다 라고 메시지가 남도록 해주세요
 		}catch(ArithmeticException | NumberFormatException a) { // 멀티 catch 자바 7부터 가능
 			System.out.println("0으로 나눌 수 없습니다.");
 		}catch(ArrayIndexOutOfBoundsException ae) {
@@ -25,6 +27,4 @@ public class Exception07P355 {
 		System.out.println("예외가 발생했습니다.");
 		}
 	}
-		// ArithmeticException도 특별 처리를 해 주세요.
-		// 0으로 나눌 수 없습니다 라고 메시지가 남도록 해주세요
 }

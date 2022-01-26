@@ -38,8 +38,5 @@ public class ArrayList02PP447 {
 		List<String> EmptyList = new ArrayList();
 		System.out.println(EmptyList.isEmpty());
 		System.out.println(EmptyList.size());
-		
-
 	}
-
 }

@@ -17,7 +17,5 @@ public class Arrays03 {
 		// 끝인덱스 범위를 벗어나게 복사해보세요.
 		int[] arrCopy2 = Arrays.copyOfRange(arr, 7, 15);
 		System.out.println(Arrays.toString(arrCopy2));
-
 	}
-
 }

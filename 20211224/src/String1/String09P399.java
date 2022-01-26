@@ -16,7 +16,5 @@ public class String09P399 {
 		
 		// .equals()를 이용하여 주소값 비교가 아닌 문자열간 비교가 가능
 		System.out.println(b.equals(a));
-
 	}
-
 }

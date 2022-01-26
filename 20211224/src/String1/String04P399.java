@@ -17,5 +17,4 @@ public class String04P399 {
 		// report.replace("철수", "미애"); 저장을 안하면 바꾼 값을 원본에 반영을 안함
 		System.out.println(report);
 	}
-
 }

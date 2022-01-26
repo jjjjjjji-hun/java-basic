@@ -16,7 +16,5 @@ public class Random03P484 {
 		// 따라서 정수 숫자 하나(n)를 파라미터로 넣어줘야 0 <= 결과값 < n 이 나옵니다.
 		int result2 = random.nextInt(5); // 0, 1, 2, 3, 4 중 하나가 나옴
 		System.out.println(result2);
-
 	}
-
 }

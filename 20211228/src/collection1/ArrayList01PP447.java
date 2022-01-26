@@ -26,7 +26,5 @@ public class ArrayList01PP447 {
 		System.out.println(list1);
 		list1.set(1, 99);
 		System.out.println(list1);
-
 	}
-
 }

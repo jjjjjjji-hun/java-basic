@@ -10,7 +10,5 @@ public class Builder02P408 {
 		System.out.println(a);
 		a.append("qwer");
 		System.out.println(a);
-
 	}
-
 }

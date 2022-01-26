@@ -18,7 +18,5 @@ public class TimeCheck01P384 {
 		long end = System.currentTimeMillis();
 		System.out.println("끝난시간 : " + end);
 		System.out.println("소요시간 : " + (end - start));
-
 	}
-
 }

@@ -24,5 +24,4 @@ public class Arrays01 {
 		int b = Arrays.binarySearch(arr2, 14);
 		System.out.println(b);
 	}
-
 }

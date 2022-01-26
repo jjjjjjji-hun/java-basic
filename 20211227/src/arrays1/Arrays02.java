@@ -14,7 +14,5 @@ public class Arrays02 {
 		// 만약 원본보다 길게 복사하면 나머지는 0으로 채워집니다.
 		int[] arrCopy2 = Arrays.copyOf(arr, 10);
 		System.out.println(Arrays.toString(arrCopy2));
-
 	}
-
 }

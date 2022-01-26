@@ -14,5 +14,4 @@ public class Math03 {
 		System.out.println(Math.round(a));
 		System.out.println(Math.round(b)); // 결과값이 정수
 	}
-
 }

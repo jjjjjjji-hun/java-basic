@@ -11,7 +11,5 @@ public class Builder04P408 {
 		System.out.println(a);
 		a.deleteCharAt(0);
 		System.out.println(a);
-		
 	}
-
 }

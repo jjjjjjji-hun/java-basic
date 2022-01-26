@@ -15,5 +15,4 @@ public class String07P399 {
 		System.out.println(bye.toLowerCase());
 		System.out.println(bye);
 	}
-
 }

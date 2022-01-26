@@ -22,7 +22,5 @@ public class FileIo01P674 {
 		output1.write("123\n가나다");
 		// 저장까지 해줘야 내용이 적힌 파일이 남습니다.
 		output1.close();
-
 	}
-
 }

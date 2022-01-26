@@ -14,7 +14,5 @@ public class Builder06P408 {
 		// setCharAt()으로 변경하는 단일 문자는 홑따옴표 '로 여닫는 부분을 작성해야합니다.
 		str.setCharAt(5, 'z');
 		System.out.println(str);
-
 	}
-
 }

@@ -12,7 +12,6 @@ public class String06P399 {
 		
 		result = str.substring(10, 15);
 		System.out.println(result);
-
+		System.out.println(str);
 	}
-
 }

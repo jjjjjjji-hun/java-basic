@@ -11,7 +11,5 @@ public class Arrays04 {
 		int[] arr = {21, 60, 32, 44, 1, 59, 99, 89, 36};
 		Arrays.sort(arr);
 		System.out.println(Arrays.toString(arr));
-
 	}
-
 }

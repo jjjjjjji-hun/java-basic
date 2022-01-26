@@ -26,5 +26,4 @@ public class Date01 {
 		String strNow3 = asd.format(now);
 		System.out.println(strNow3);
 	}
-
 }

@@ -22,5 +22,4 @@ public class Throw01P361 {
 			e.printStackTrace();
 		}
 	}
-
 }

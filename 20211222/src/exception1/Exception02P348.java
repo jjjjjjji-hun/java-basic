@@ -9,7 +9,5 @@ public class Exception02P348 {
 		int a = 1;
 		int b = 0;
 		 System.out.println(a / b);
-
 	}
-
 }

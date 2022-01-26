@@ -13,7 +13,5 @@ public class Random01P484 {
 		boolean result = random.nextBoolean();
 		System.out.println(result);
 		// == System.out.println(random.nextBoolean());
-
 	}
-
 }

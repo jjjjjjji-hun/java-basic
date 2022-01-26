@@ -21,5 +21,4 @@ public class HashMap02P458 {
 		System.out.println(food.get("치즈돈까스"));
 		System.out.println(food.get("냉모밀"));
 	}
-
 }

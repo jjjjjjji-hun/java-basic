@@ -19,7 +19,6 @@ public class String11P399 {
 		System.out.println(b);
 		System.out.println(b+1);
 
-		
 		// String.valueOf()를 쓰지 않고도
 		// + ""만으로도 문자열로 만들 수 있습니다
 		// 자바는 문자열 + 다른자료형이 오는 경우 전부 문자로 치환해 처리합니다.
@@ -37,5 +36,4 @@ public class String11P399 {
 		System.out.println(d);
 		System.out.println(d+1);
 	}
-
 }

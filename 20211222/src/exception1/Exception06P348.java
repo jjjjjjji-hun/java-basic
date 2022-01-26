@@ -12,7 +12,5 @@ public class Exception06P348 {
 		String str = "3";
 		Object obj = str;
 		Integer integer = (Integer)obj; //int나double은 스택에 저장, Integer는 힙에 저장
-
 	}
-
 }

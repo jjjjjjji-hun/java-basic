@@ -19,8 +19,5 @@ public class Builder07P408 {
 		// StringBuilder str2라는 변수에 저장해주세요.
 		StringBuilder str2 = new StringBuilder(hangul);
 		System.out.println(str2);
-		
-
 	}
-
 }
